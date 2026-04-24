@@ -1,0 +1,17 @@
+name = "engineerpro-ultimate-app"
+main = "./.next/server/pages-middlewares/_middleware.js" # This might be auto-generated or handled by next-on-pages
+compatibility_date = "2024-05-18"
+compatibility_flags = ["nodejs_compat"]
+
+[vars]
+# These are runtime variables for Cloudflare Workers/Pages Functions
+# These values will be injected by Cloudflare during deployment from Pages project settings
+# Do NOT hardcode secrets here for production
+SUPABASE_URL = "https://your-supabase-url.supabase.co"
+SUPABASE_ANON_KEY = "your-anon-key-from-supabase"
+SUPABASE_SERVICE_KEY = "your-service-role-key-from-supabase"
+STRIPE_SECRET_KEY = "sk_test_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+STRIPE_WEBHOOK_SECRET = "whsec_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+TURNSTILE_SECRET_KEY = "0x4AAAAAAABcdeFgHiJKlMnOpQRsT_xxxxxxxxxxxxxxxxx"
+# For JWT verification, Supabase JWT secret is derived from SUPABASE_SERVICE_KEY
+SUPABASE_JWT_SECRET = "your-supabase-jwt-secret-from-project-settings" # This is typically found in Supabase project settings -> API -> JWT Secret

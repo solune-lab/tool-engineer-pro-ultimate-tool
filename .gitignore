@@ -1,0 +1,7 @@
+.next/
+.vercel/
+node_modules/
+dist/
+.dev.vars
+.env.local
+*.p8

@@ -1,0 +1,157 @@
+{
+  "app_name": "EngineerPro Ultimate",
+  "bundle_id": "com.vibefactory.engineer_pro_ultimate",
+  "app_store_title": "EngineerPro: Ultimate Tool",
+  "app_store_subtitle": "Stable. Fast. No Crashes.",
+  "tagline": "The professional's choice for robust, stable, and comprehensive engineering tools.",
+  "target_users": "Professional engineers, engineering students, and technical researchers seeking reliable, high-performance tools.",
+  "core_features": [
+    "Rock-Solid Performance & Stability",
+    "User-Centric & Ad-Free Experience",
+    "Robust Core Utility Toolkit",
+    "Advanced Calculation & Simulation",
+    "Interactive Diagramming & CAD"
+  ],
+  "differentiator": "Unlike 'Engineering & FE Prep' which suffers from frequent crashes, intrusive UI changes, and broken core utilities, EngineerPro Ultimate offers unparalleled stability, a customizable and distraction-free workspace, and fully functional, reliable engineering tools, ensuring an uninterrupted and efficient workflow.",
+  "aso_store_highlights": [
+    "\u2713 Blazing fast startup, zero crashes, instant response.",
+    "\u2713 Control your experience: no forced features, no intrusive ads or prompts.",
+    "\u2713 Fully functional browser, stable PDFs, reliable auth."
+  ],
+  "ui_style": {
+    "theme": "professional",
+    "primary_color": "#1C2B42",
+    "secondary_color": "#6A7F93",
+    "background_color": "#1A202A",
+    "font_style": "monospace",
+    "animations": "none"
+  },
+  "screens": [
+    {
+      "name": "HomeView",
+      "purpose": "Central hub for accessing all engineering tools and features."
+    },
+    {
+      "name": "ResultView",
+      "purpose": "Displays computation results, simulation outputs, or diagram renderings."
+    },
+    {
+      "name": "SettingsView",
+      "purpose": "Manages user preferences, subscriptions, account details, and customization options."
+    }
+  ],
+  "aso_keywords": [
+    "engineering",
+    "fe prep",
+    "calculation",
+    "simulation",
+    "cad",
+    "technical tools",
+    "ultimate engineer"
+  ],
+  "iap_pitch": "Unlock the full power of EngineerPro Ultimate with a subscription, providing access to all advanced tools, an ad-free experience, and priority support. Save with our annual plan!",
+  "admob_trigger": "Display banner ads in free 'Explore' sections or before accessing limited free tools.",
+  "needs_ai_feature": true,
+  "ai_feature_description": "Intelligent assistant for complex problem-solving, formula generation, and contextual data analysis, integrated as an opt-in, non-intrusive utility.",
+  "web_slug": "engineer-pro-ultimate-tool",
+  "tool_category": "productivity",
+  "seo_title": "EngineerPro Ultimate: Engineering Tools & FE Prep",
+  "seo_description": "Boost productivity with EngineerPro Ultimate. Advanced engineering tools, stable calculations, robust CAD, and FE prep for professionals.",
+  "seo_h1": "EngineerPro Ultimate: The Ultimate Engineering Tool",
+  "tool_inputs": [
+    {
+      "field": "problem_statement",
+      "label": "Engineering Problem or Query",
+      "type": "textarea"
+    },
+    {
+      "field": "input_parameters",
+      "label": "Parameters (CSV, JSON, or direct input)",
+      "type": "file"
+    }
+  ],
+  "tool_output_type": "table",
+  "stripe_plan": {
+    "free_credits": 0,
+    "remove_ads_price_usd": 4.99,
+    "pro_monthly_usd": 9.99,
+    "stripe_pro_price_id": "price_1TPoeDRoWZXxrh8fRqb6Ss7I",
+    "stripe_remove_ads_price_id": "price_1TPoeERoWZXxrh8fUxy6EUZN",
+    "stripe_product_id": "prod_UObrDAnhfmvW3E"
+  },
+  "monetization_model": "subscription",
+  "ai_api": {
+    "source": "none",
+    "api_hint": "Implement with local Swift/CoreML logic.",
+    "cost_per_call_usd": 0.0
+  },
+  "monetization": {
+    "monetization_model": "subscription",
+    "subscription_tiers": [
+      {
+        "name": "Monthly Pro",
+        "price_usd": 9.99,
+        "period": "monthly",
+        "features": [
+          "All ultimate engineering tools",
+          "No ads",
+          "Priority support"
+        ]
+      },
+      {
+        "name": "Annual Pro",
+        "price_usd": 79.99,
+        "period": "yearly",
+        "features": [
+          "All ultimate engineering tools",
+          "No ads",
+          "Priority support",
+          "3 months free compared to monthly"
+        ]
+      }
+    ],
+    "remove_ads_iap_price_usd": 4.99,
+    "free_tier_credits_per_month": 0,
+    "pricing_confidence": "high",
+    "competitor_price_range": "$0.99\u2013$15.00/mo",
+    "reasoning": "The pricing aligns with the 'ultimate' nature of the app, positioning it above basic tools while remaining competitive. The monthly equivalent prices of engineering tool subscriptions range from $0.99 to $15.00/month, with an 'Ultimate subscription plan' specifically at $15/month or $100/year (equivalent to $8.33/month). Our chosen price of $9.99/month is within 30% of the market median ($8.33/mo) and offers a compelling annual discount."
+  },
+  "top_complaints": [
+    "The application experiences frequent freezing, crashing, and significant delays during startup or interaction.",
+    "The application forces unwanted features like AI, consistently changes UI layouts, and uses intrusive, uncontrollable notifications and review prompts.",
+    "Core browser functionalities such as tab management (swipe to close), keyboard features, PDF scroll position retention, search, and the authentication process are broken or have been removed."
+  ],
+  "opportunity": {
+    "competition_score": 92.4,
+    "demand_score": 50.0,
+    "trend_multiplier": 1.0,
+    "total": 75.4,
+    "app_count": 13,
+    "avg_rating": 3.74,
+    "tier": "Base",
+    "idea": "the ultimate engineering tool with engineering",
+    "scanned_at": "2026-04-24T08:47:32.053116+00:00",
+    "top_complaints": [],
+    "competitor_app_name": "Engineering & FE Prep",
+    "autocomplete": [],
+    "pain_points": [
+      "\ud83d\udc4e\ud83c\udffe\ud83d\ude33",
+      "Trying to search something important and the star box pops up in my way.  The review box needs to stop popping up 10 seconds after I open the app.  I can\u2019t enjoy the app if I haven\u2019t done anything with it yet!",
+      "I first installed this app because i liked edge on the desktop but this newest update is rebranding edge as an ai browser i don\u2019t care or want ai in my browser",
+      "Every time I back to a web of a PDF file\uff0cit rolls to the top page\uff0conly iPad happens so\uff0cplease fix to get a good review.\nNow it learn to break up, fun",
+      "I just want the regular Edge browser. This thing sucks",
+      "The functions is just removed. The function that you can swipe to close tab was working just fine but they just removed it for no resean. Also you lose some functions in keyboard menu I guess Microsoft just customized the keyboard so it loses the features and it\u2019s just disgusting.",
+      "Too many notifications! I didn\u2019t want nor ask for them!",
+      "Why does the location of things on the browser keep changing? It\u2019s hard to navigate. It\u2019s not helpful. If it\u2019s not broken don\u2019t fix it?",
+      "Will not stop the notifications",
+      "It keeps asking me to use my Microsoft authenticator app to login, but I can\u2019t log into my authenticator app because it requires me to use the authenticator app to login. It\u2019s an endless loop. I\u2019ve tried all the other methods to sign in, and it does not work.",
+      "High price, no good series with woke agendas, and no good moves or shows. We use to love being watching our shows and being about to watch the same things with your family across the county\nWas great. I\u2019l be canceling all",
+      "Literally doesn\u2019t let you search anything",
+      "Constant freezing and crashing since a recent update within the past month or so. Happens most frequently on news websites, anything that has an embedded pop up of any kind. The entire app needs to be closed and relaunched to get it to respond to touch",
+      "Sucks donkey",
+      "I\u2019ve been using Edge on my MacBook for a couple years and the Chrome app on my iPhone. I finally decided to standardize on one to get my shortcuts consistent across both of them. I decided I would switch my iPhone over to Edge. I\u2019m thinking I\u2019m going to go back. \n\nThere is a 3-5 second delay when starting the app before it will allow me to click into the search bar. Very annoying. I\u2019ve tried disabling everything and the delay doesn\u2019t go away. I guess I\u2019m going to switch back to Chrome. \n\nAm I the only one experiencing this? I would expect negative reviews from others if they were experiencing this annoying issue."
+    ],
+    "skipped": true,
+    "skip_reason": "max retries: unhashable type: 'dict'"
+  }
+}
