@@ -5,3 +5,4 @@ dist/
 .dev.vars
 .env.local
 *.p8
+.npm-cache/
