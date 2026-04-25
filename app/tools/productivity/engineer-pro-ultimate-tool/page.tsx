@@ -2,8 +2,6 @@ import { Metadata } from 'next'
 import { EPU_ToolInterface } from './_components/EPU_ToolInterface'
 import { RelatedTools } from '@/components/RelatedTools'
 
-export const runtime = 'edge'
-
 const toolSlug = 'engineer-pro-ultimate-tool'
 const toolName = 'EngineerPro Ultimate'
 const toolTagline = 'The professional\'s choice for robust, stable, and comprehensive engineering tools.'
