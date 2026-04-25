@@ -1,6 +1,7 @@
 import type { NextConfig } from 'next'
 
 const nextConfig: NextConfig = {
+  assetPrefix: 'https://tool-engineer-pro-ultimate-tool.pages.dev',
   env: {
     NEXT_PUBLIC_SUPABASE_URL: 'https://gadpvswejvqwcyaxzxub.supabase.co',
     NEXT_PUBLIC_SUPABASE_ANON_KEY: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImdhZHB2c3dlanZxd2N5YXh6eHViIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzcwMDU5MjgsImV4cCI6MjA5MjU4MTkyOH0.lVZawlcnS0rtwM2AB5F2DqPdT10cQoxce-o9ORByqok',
